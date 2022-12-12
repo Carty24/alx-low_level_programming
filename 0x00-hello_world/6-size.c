@@ -4,13 +4,13 @@
  *
  * Return: Always (0)
  **/
-int main(voin)
+int main(void)
 {
 int i;
 char c;
 float f;
-longint li;
-longlongint lli;
+long int li;
+long long int lli;
 printf("The size of the integer is: %lu.\n", (long unsigned)sizeof (i));
 printf("The size of the char is: %lu.\n", (long unsigned)sizeof (c));
 printf("The size of the float is %lu.\n", (long unsigned)sizeof (f));
