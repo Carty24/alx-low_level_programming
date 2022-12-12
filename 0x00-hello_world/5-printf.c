@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- *I have to get this right 
- *main please ma ko ba me main
+ * main - Entry point 
+ * 
+ * Return: Always 0 (Success)
 */
 int main(void)
 {
