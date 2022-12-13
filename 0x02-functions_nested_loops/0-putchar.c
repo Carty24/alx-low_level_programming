@@ -5,8 +5,8 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+char main(void)
 {
-putchar("_putchar\n");
+putchar( _putchar\n );
 return (0);
 }
