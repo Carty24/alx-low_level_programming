@@ -8,22 +8,25 @@
  */
 int main(void)
 {
-  int n;
+int n;
 
-  srand(time(0));
-  n = rand() - RAND_MAX / 2;
-  /* your code goes there */
-  if(n>0) {
-    /*The number is positive */
-    printf("%d This is a positive number\n", n);
-  }
-  else if (n == 0) {
-    /*The number is zero*/
-    printf("%d This is a zero\n", n);
-  }
-  else if (n < 0) {
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+/* your code goes there */
+if( n>0 )
+{
+/*The number is positive */
+printf("%d is positive\n", n);
+}
+else if (n == 0)
+{
+/*The number is zero*/
+printf("%d is zero\n", n);
+}
+else if (n < 0)
+{
     /* The number is negative */
-    printf("%d This is a nagative number\n", n);
+    printf("%d is nagative\n", n);
   }
   return (0);
 }
