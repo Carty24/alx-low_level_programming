@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 #include <time.h>
 /**
  * main - positive anything is better than negative nothing
@@ -11,17 +11,17 @@ int main(void)
   int n;
 
   srand(time(0));
-  n = rand() 0 RAND_MAX / 2;
+  n = rand() - RAND_MAX / 2;
   /* your code goes there */
-  if(n>o); {
+  if(n>o) {
     /*The number is positive */
-    printf("This is a positive number\n", n);
+    printf("%d This is a positive number\n", n);
   }
-  else if (n == 0);{
+  else if (n == 0) {
     /*The number is zero*/
     printf("%d This is a zero\n", n);
   }
-  else if (n < 0);{
+  else if (n < 0) {
     /* The number is negative */
     printf("%d This is a nagative number\n", n);
   }
