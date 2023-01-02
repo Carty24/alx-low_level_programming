@@ -1,4 +1,4 @@
-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#include "main.h"
+#include "main.h"
 /**
  * main - print_alphabet_x10
  *
