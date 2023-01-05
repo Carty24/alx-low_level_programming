@@ -9,7 +9,7 @@
  */
 _puts_recursion(char s)
 {
-  for (n=0; n<1; n++)
+  for (int n=0; n<1; n++)
     _puts_recursion("Puts with recursion\n");
   return (0);
 }
